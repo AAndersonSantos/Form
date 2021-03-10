@@ -1,0 +1,171 @@
+
+body{
+    background: #E8E8E8; 
+}
+
+fieldset {
+    border: none;
+}
+
+
+em {
+    color: red;
+}
+
+.campo {
+    margin-left: 36%;         
+}
+
+fieldset.grupo {
+    margin-left: 34%;
+}
+
+.campoB {
+    border: 3px solid;
+    border-radius: 15px;   
+}
+
+legend{
+    font-family: Georgia;
+    color: #000;
+    margin-left: 532px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+input, select, textarea, button {
+    border-radius: 5px;
+
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color:black;
+    display: block;
+    
+}
+
+fieldset.grupo .campo {
+float: left; 
+margin-left: 10px;   
+
+}
+
+.estado, select {
+    position: relative;
+    left: 0px;
+    bottom: 1px;
+    
+}
+
+.campo input[type="text"],
+.campo select,
+.campo textarea {
+    padding: 0.4em;
+    border: 1px solid #828282;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+#telefone { 
+    padding: 0.4em;
+    border: 1px solid #828282;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.campo  input[type="radio"]:checked:after{
+       margin-right: 0.9em;
+       width: 15px;
+       height: 15px;
+       border-radius: 15px;
+       top: -2px;
+       left: -1px;
+       position:relative;
+       background-color: #F90;
+       content: '';
+       display: inline-block;
+       visibility: visible;
+}
+
+.campo input[type="checkbox"]:before {
+    margin-right: 0.9em;
+    content: '';
+    position: relative;
+    width: 15px;
+    height: 17px;
+    display: inline-block;
+    top: -4px;
+    left: -1px;
+    border: solid 1px;
+    vertical-align: bottom;
+    background: #ffffff;
+  }
+
+.campo  input[type="checkbox"]:checked::after{
+    margin-right: 0.9em;
+    top: -30px;
+    left: 4px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    width: 10px;
+    height: 20px;
+    border-right: solid 4px #F90;
+    border-bottom: solid 4px #F90;
+    transform: rotate(45deg);
+}
+
+.campo  input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFC;
+    
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+.botao {
+    font-size: 1.5em;
+    background: #F90;
+    border: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 590px;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    outline: none;
+}
+
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none; 
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer; 
+}
+
+span{
+    color: black;
+    font-family:  sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.option{
+    color: #828282;
+}

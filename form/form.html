@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+   
+    <form action="form.html" method="POST">
+       <fieldset class="campoB">          
+            <legend>Formulário De Usuário</legend>
+        <fieldset class="grupo">
+            <div class="grupo">
+            <div class="campo">
+                <label for="nome" id="nome">Nome<em>*</em></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="nome" id="snome">Sobrenome<em>*</em></label>
+                <input type="text" name="snome" id="snome" required>
+            </div>
+            </div>
+        </fieldset>
+            <div class="campo">
+                <label>Sexo<em>*</em></label>
+            <label class="checkbox">
+                <input type="radio" name="sexo" value="masculino" required>Masculino 
+            </label>
+            <label class="checkbox">
+                <input type="radio" name="sexo" value="feminino">Feminino
+            </label>
+            </div>
+            <div class="campo">
+                <label for="email">E-mail<em>*</em></label>
+                    <input type="text" id="email" name="email"  style="width: 35em" required>
+            </div> 
+            
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="cidade">Cidade<em>*</em></label>
+                    <input type="text" name="cidade" style="width: 20em" value="" required>
+                </div>
+                <div class="campo">
+                    <label for="estado">Estado<em>*</em></label>
+                    <select name="estado" id="estado" required>
+                    <option value="">--</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                </select>
+            </div>
+        </fieldset>
+        
+        <div class="campo">
+            <label for="Telefone" class="tel">Telefone<em class="option">(Opcional)</em></label>
+                <input type="tel" id="telefone" name="telefone" style="width: 2em" value="" pattern="[(]{1}[0-9]{2}[)]" placeholder="(XX)">
+                <input type="tel" id="telefone" name="telefone" style="width: 6em" value="" pattern="[0-9]{5}-[0-9]{4}" placeholder="12345-6789"> 
+        </div>  
+
+            <div class="campo">
+                <label for="mensagen">Mensagem</label>
+                <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+            </div>
+            <div class="campo">
+                <label>Newsletter</label>
+                <label>
+                    <input type="checkbox" name="newsletter" value="1" ><span>Gostaria de receber a Newsletter da empresa</span>
+                </label>
+            </div>
+            <button type="submit" class="botao">Cadastrar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
