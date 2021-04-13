@@ -11,13 +11,12 @@ ___
 
 #1Primeiro Projeto No Github.
 
-Um formulário de usuário simples para cadastro.
+Um formulário de usuário para cadastro.
 ___
 
 ## **💻Tecnologias Usadas**
 - ### Html
 - ### Css
-- ## 💻🎧🍕
 ---
 
 ## 📝Licença
